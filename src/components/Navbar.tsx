@@ -64,7 +64,7 @@ const Navbar = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`text-sm font-medium transition-all duration-300 ${
                   activeSection === item.id
-                    ? "text-primary text-glow-mint"
+                    ? "text-primary text-glow-cyan"
                     : "text-foreground/70 hover:text-primary"
                 }`}
               >
